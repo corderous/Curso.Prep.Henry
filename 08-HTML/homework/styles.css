@@ -1,27 +1,41 @@
 html {
-    background: url ("https://wallpaperaccess.com/full/196893.jpg");
+    background-image: url("https://wallpaperaccess.com/full/196893.jpg");
 }
 h1 {
-    font-size: 20px;
-    color:rgb(13, 115, 231);
+    font-size: 40px;
+    color:lightseagreen;
+    width: 500px;
+    text-align: center;
 }
 #thirdDiv {
-    color:rgba(241, 135, 47, 0.836);
+    color:rgba(179, 12, 221);
+    margin: 0 auto;
     border:dashed;
-    height: 600px;
-    width: 500px;
+    max-width: 700px;
     background-color: lightseagreen;
     padding: 50px;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
 }
 .divClass{
-    background-color: royalblue;
+    background-color: rgb(134, 255, 21);
+    margin: 0 auto;
     color:salmon;
     border:thick;
+    max-width: 700px;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    
+
 }
 #spanID {
     font-style:italic;
     color:slateblue;
-    background-color: gray;
+    background-color: rgb(134, 255, 21);
     font-size:18px;
     margin: 50px;
 
